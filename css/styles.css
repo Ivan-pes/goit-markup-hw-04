@@ -121,7 +121,7 @@ flex-direction: column;
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     ),
-    url(/images/people-office\ 1\ копія.jpg)
+    url("../images/people-office-1.jpg")
     ;
     background-repeat: no-repeat;
     background-size: cover;
