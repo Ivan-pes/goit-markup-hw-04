@@ -264,6 +264,7 @@ flex-direction: column;
     border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
    
 }
 .name-compani {
@@ -294,7 +295,7 @@ flex-direction: column;
 .icons-svg-therd {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 24px;
     margin-top: 10px;
 }
 .icon {
@@ -312,6 +313,13 @@ flex-direction: column;
 }
 .icon:hover {
     background-color: #31D0AA;
+}
+.team-tegs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
 }
 
 /* FOUR SECTION */
@@ -350,6 +358,7 @@ flex-direction: column;
 }
 .li-forgen {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms ease;
 }
 .portfolio-card {
     padding: 32px 16px;   
@@ -391,6 +400,10 @@ img {
 .li-forgen:hover .diva-overlay {
     transform: translateY(0);
 }
+.li-forgen:hover {
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.08),
+        0px 1px 1px rgba(0, 0, 0, 0.16),
+        0px 2px 1px rgba(0, 0, 0, 0.08); }
 /* FOOTER */
 
 .footer {
@@ -438,8 +451,12 @@ img {
     color: #FFFFFF;
 }
 .social-icons_foot {
-    margin-top: 24px; 
+    margin-top: 16px; 
+}
+.icons-svgfoot {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        list-style: none;
 }
