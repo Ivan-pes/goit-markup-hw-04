@@ -150,7 +150,7 @@ flex-direction: column;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-address .address-link:hover,
 .li-address .address-link:focus {
@@ -184,6 +184,7 @@ flex-direction: column;
     background-size: cover;
     background-color: #2e2f42;
     margin: 0 auto;
+    max-width: 1440px;
 }
 .hero-content {
     display: flex;
@@ -261,10 +262,10 @@ flex-direction: column;
     display: flex;
         align-items: center;
         justify-content: center;
-        padding: 24px 100px 24px 100px;
+        height: 112px;
         margin-bottom: 8px;
         border: 1px solid #8E8F99;
-        border-radius: 8px;
+        border-radius: 4px;
         background-color: #F4F4FD;
         fill: #2E2F42;
 }
@@ -302,6 +303,7 @@ flex-direction: column;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 10px
 }
 .therd-par {
     font-size: 16px;
@@ -323,8 +325,8 @@ flex-direction: column;
 .icons-svg-therd {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    margin-top: 10px;
+    gap: 8px;
+    margin-top: 8px;
 }
 .icon {
     display: flex;
@@ -334,9 +336,9 @@ flex-direction: column;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon_svg {
+.icon-svg {
     fill: #F4F4FD;
 }
 .icon:hover {
@@ -386,7 +388,7 @@ flex-direction: column;
 }
 .li-forgen {
     width: calc((100% - 48px) / 3);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card {
     padding: 32px 16px;
@@ -414,7 +416,7 @@ img {
         left: 0;
         width: 100%;
         height: 100%;
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: translateY(100%);
         background-color: #4D5AE5;
         color: #F4F4FD;
@@ -475,14 +477,14 @@ img {
     margin-left: 120px;
     
 }
-.h4_footer {
-    font-weight: 500px;
+.h4-footer {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.social-icons_foot {
+.social-icons-foot {
     margin-top: 16px; 
 }
 .icons-svgfoot {
@@ -500,7 +502,7 @@ img {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-foot:hover {
     background-color: #31d0aa;
