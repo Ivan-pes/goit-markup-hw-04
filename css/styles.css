@@ -258,8 +258,8 @@ flex-direction: column;
 .second-title { 
     margin-bottom: 8px;
 }
-.hero-svg-a {
-    display: flex;
+.hero-svg {
+        display: flex;
         align-items: center;
         justify-content: center;
         height: 112px;
